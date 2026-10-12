@@ -1,0 +1,57 @@
+{
+  "_instructions": "TEMPLATE. Replace the three PLACEHOLDER wines with your 15 real wines. Keep the same fields. Flavour scores are 1 (low) to 5 (high). bottle.type is one of: reusable, lightweight, standard. glass_g is the empty bottle weight in grams (ask the producer). Photos must be your own, saved in public/bottles/. Shops: phone them to confirm stock; get lat/lng from Google Maps (right-click on the spot).",
+  "wines": [
+    {
+      "id": "stage-wine",
+      "name": "PLACEHOLDER – Stage bottle (the one you scan live)",
+      "producer": "PLACEHOLDER Producer A",
+      "region": "Loire",
+      "colour": "red",
+      "price_eur": 14.5,
+      "flavour": { "body": 2, "acidity": 4, "fruit": 4, "tannin": 2, "sweetness": 1 },
+      "tags": ["light", "fresh", "red fruit"],
+      "pairings": ["roast chicken", "charcuterie", "tomato pasta"],
+      "description": "Factual description only: grape, how it is made, how to serve.",
+      "bottle": { "type": "standard", "glass_g": 550, "deposit_eur": 0 },
+      "online": true,
+      "photos": ["bottles/stage-wine-1.jpg", "bottles/stage-wine-2.jpg", "bottles/stage-wine-3.jpg", "bottles/stage-wine-4.jpg", "bottles/stage-wine-5.jpg", "bottles/stage-wine-6.jpg"],
+      "shops": [
+        { "name": "PLACEHOLDER Shop 1", "address": "Street, 75011 Paris", "lat": 48.858, "lng": 2.379 }
+      ]
+    },
+    {
+      "id": "reusable-match",
+      "name": "PLACEHOLDER – Reusable-bottle match",
+      "producer": "PLACEHOLDER Producer B",
+      "region": "Beaujolais",
+      "colour": "red",
+      "price_eur": 13.0,
+      "flavour": { "body": 2, "acidity": 4, "fruit": 5, "tannin": 2, "sweetness": 1 },
+      "tags": ["light", "juicy", "cherry"],
+      "pairings": ["tomato pasta", "pizza", "grilled vegetables"],
+      "description": "Factual description only.",
+      "bottle": { "type": "reusable", "glass_g": 500, "deposit_eur": 0.2 },
+      "online": true,
+      "photos": ["bottles/reusable-match-1.jpg", "bottles/reusable-match-2.jpg", "bottles/reusable-match-3.jpg"],
+      "shops": [
+        { "name": "PLACEHOLDER Shop 2", "address": "Street, 75010 Paris", "lat": 48.872, "lng": 2.363 }
+      ]
+    },
+    {
+      "id": "contrast-wine",
+      "name": "PLACEHOLDER – A bold red (should NOT match the stage bottle)",
+      "producer": "PLACEHOLDER Producer C",
+      "region": "Languedoc",
+      "colour": "red",
+      "price_eur": 12.0,
+      "flavour": { "body": 5, "acidity": 2, "fruit": 3, "tannin": 5, "sweetness": 1 },
+      "tags": ["bold", "spicy", "dark fruit"],
+      "pairings": ["beef stew", "lamb", "hard cheese"],
+      "description": "Factual description only.",
+      "bottle": { "type": "lightweight", "glass_g": 420, "deposit_eur": 0 },
+      "online": true,
+      "photos": ["bottles/contrast-wine-1.jpg", "bottles/contrast-wine-2.jpg", "bottles/contrast-wine-3.jpg"],
+      "shops": []
+    }
+  ]
+}
