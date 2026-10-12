@@ -2,6 +2,22 @@
   "_instructions": "TEMPLATE. Replace the three PLACEHOLDER wines with your 15 real wines. Keep the same fields. Flavour scores are 1 (low) to 5 (high). bottle.type is one of: reusable, lightweight, standard. glass_g is the empty bottle weight in grams (ask the producer). Photos must be your own, saved in public/bottles/. Shops: phone them to confirm stock; get lat/lng from Google Maps (right-click on the spot).",
   "wines": [
     {
+      "id": "mcguigan-estate-merlot",
+      "name": "McGuigan Estate Merlot",
+      "producer": "McGuigan Wines",
+      "region": "South Eastern Australia",
+      "colour": "red",
+      "price_eur": 8.5,
+      "flavour": { "body": 3, "acidity": 2, "fruit": 4, "tannin": 2, "sweetness": 2 },
+      "tags": ["medium-bodied", "plum", "red berries"],
+      "pairings": ["tomato-based pasta", "pizza", "antipasto"],
+      "description": "A 75cl Merlot from South Eastern Australia with plum and red-berry flavours. Serve with tomato-based pasta dishes.",
+      "bottle": { "type": "standard", "glass_g": 0, "deposit_eur": 0 },
+      "online": false,
+      "photos": [],
+      "shops": []
+    },
+    {
       "id": "stage-wine",
       "name": "PLACEHOLDER – Stage bottle (the one you scan live)",
       "producer": "PLACEHOLDER Producer A",
